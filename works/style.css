@@ -113,5 +113,40 @@ a:hover {
         
     }
 
-    
+    #content {
+        text-align: center;
+        
+    }
+
+    .works {
+        display: block; /* 横並びを縦並びに変更 */
+        margin-bottom: 20px; /* セクション間に余白を追加 */
+        text-align: center;
+    }
+
+    .works li {
+        width: 100%; /* リストを画面幅いっぱいに */
+        text-align: center; /* 中央揃え */
+    }
+
+    h4 {
+        font-size: 18px; /* フォントサイズを縮小 */
+    }
+
+    p {
+        font-size: 16px; /* 段落のフォントサイズを縮小 */
+    }
+
+    .works img {
+        max-width: 100%; /* さらに小さい画面では幅を画面サイズに適応 */
+    }
+
+    h4 {
+        font-size: 16px; /* タイトルのフォントをさらに縮小 */
+    }
+
+    p {
+        font-size: 14px; /* 段落のフォントサイズを縮小 */
+    }
 }
+
