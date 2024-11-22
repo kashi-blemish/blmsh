@@ -1,0 +1,68 @@
+body {
+    margin: auto;
+    font-family: 'Segoe UI';
+}
+
+.header_contents {
+    box-shadow: 0 8px 16px rgba(129, 129, 129, 0.5); /* 強めの影 */
+    width: 100%;
+    max-width: 2000px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo img {
+    height: 50px;
+    padding-left: 20px;
+    width: auto;
+}
+
+.nav_link {
+    font-size: 22px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    color: #000000;
+    margin: 0 15px;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
+
+.header_nav_lists {
+    display: flex
+;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+#content {
+    position: absolute;
+    left: 70px;
+    
+}
+
+.subtitle{
+    font-family:Impact ;
+    font-weight: normal;
+    font-style: oblique;
+}
+
+.works li{
+    color: #000000;
+    list-style:none;
+}
