@@ -58,5 +58,52 @@ a:hover {
     margin: auto;
     display: block;
 }
+@media screen and (max-width: 500px) {
+   
+    /* .header_contentsの調整 */
+    
 
+    .site-logo img {
+        height: 30px; /* ロゴの高さを縮小 */
+    }
+
+    .header_contents {
+        flex-wrap: nowrap; /* 横並びを維持 */
+        justify-content: space-between; /* スペースを調整 */
+        font-size: 18px; /* フォントサイズを小さく */
+    }
+
+    .nav_link {
+        font-size: 16px; /* スマホ用フォントサイズ */
+        margin: 0 5px;
+        white-space: normal; /* 改行可能にする */
+        
+        
+       
+        
+    }
+
+    .header_nav_lists {
+        display: flex;
+        flex-wrap: wrap; /* 改行を可能にする */
+        gap: 8px; /* リンク間のスペースを調整 */
+    }
+
+    .header_nav_lists li {
+        flex: 1 1 25%; /* 各リンクが均等に配置されるよう調整 */
+        max-width: 25%; /* 各リンクの最大幅を設定 */
+        
+    }
+
+    .header_nav_lists li:nth-child(4) {
+        flex-basis: 100%; /* 4番目のアイテムで行を切り替え */
+    }
+    /* リンクの調整 */
+    a {
+        font-size: 20px; /* フォントサイズを小さく */
+        
+    }
+
+    
+}
 
