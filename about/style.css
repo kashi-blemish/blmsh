@@ -53,6 +53,13 @@ a:hover {
     text-align: center;
 }
 
+.subtitle{
+    text-align: center;
+    font-family:Impact ;
+    font-weight: normal;
+    font-style: oblique;
+}
+
 
 .pic{   
     margin: auto;
