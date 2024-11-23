@@ -82,6 +82,10 @@ th {
    
     /* .header_contentsの調整 */
     
+    .kashi{
+        width: 200px;
+        height: 40px;
+    }
 
     .site-logo img {
         height: 30px; /* ロゴの高さを縮小 */
