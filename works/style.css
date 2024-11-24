@@ -114,6 +114,7 @@ a:hover {
     }
 
     #content {
+        position: static;
         text-align: center;
         
     }

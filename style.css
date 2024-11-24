@@ -86,7 +86,7 @@ a:hover {
         padding: 20px; /* 内部余白を縮小 */
         left: 10px;    /* 左端からの距離を縮小 */
         bottom: 200px;  /* 下端からの距離を縮小 */
-        width: calc(100% - 20px); /* 幅を画面サイズに適応 */
+        width: calc(100% - 50px); /* 幅を画面サイズに適応 */
         height: auto;  /* 高さを自動調整 */
     }
 
