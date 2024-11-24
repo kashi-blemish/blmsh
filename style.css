@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
+
 
 html, body {
     height: 100%;
@@ -51,7 +51,7 @@ a {
 
 .nav_link {
     font-size: 22px;
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-weight: bold;
     color: #000000;
     margin: 0 15px;
